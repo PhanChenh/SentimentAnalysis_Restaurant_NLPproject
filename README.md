@@ -26,4 +26,7 @@ Sentiment analysis in this restaurant review dataset involves analyzing customer
 4. Apply the Model & Generate Insights:
 - Use the trained model on the dataset to make predictions. Then, analyze the new dataset by visualizing the results to gain insights and understand the overall sentiment.
 
+---
+
+## Outcome: 
 
