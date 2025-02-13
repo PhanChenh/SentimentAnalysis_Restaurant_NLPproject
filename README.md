@@ -16,11 +16,12 @@ Sentiment analysis in this restaurant review dataset involves analyzing customer
 
 1. Text Preprocessing & Data Preparation:
 - Clean the review data by removing noise such as special characters, stop words, and any irrelevant information to prepare the text for analysis.
+- Using Word2Vec Skipgram embeddings as discover in Optimizing Sentiment Analysis Models for Accurate Predictions Project
 
 2. Exploratory Data Analysis (EDA):
 - Perform some basic analysis and visualizations to get an overall understanding of the data, looking at trends and patterns.
 
-3. Train the Model (LSTM with Attention):
+3. Train the Model (LSTM with Attention -  best model in Optimizing Sentiment Analysis Models for Accurate Predictions Project):
 - Train the LSTM model with an attention mechanism to highlight the important words related to the review's aspects and sentiment.
 
 4. Apply the Model & Generate Insights:
@@ -30,3 +31,77 @@ Sentiment analysis in this restaurant review dataset involves analyzing customer
 
 ## Outcome: 
 
+![image](https://github.com/user-attachments/assets/ca2aa8e4-e93a-4fb4-b948-79f9b7ade192)
+Figure 1: Top Aspects in Terms of Frequency
+
+![image](https://github.com/user-attachments/assets/202f43df-9ba2-4d26-95d2-57e73c245581)
+Figure 2: Sentiment Distribution Across Aspects
+
+![image](https://github.com/user-attachments/assets/45beeec4-aa6a-4425-a787-2e378a73e6c3)
+Figure 3: Food Aspect with Each Polarity Wordcloud 
+
+![image](https://github.com/user-attachments/assets/e37c8d58-3610-406b-a832-7ccd57dabc63)
+Figure 4: Staff Aspect with Each Polarity Wordcloud
+
+![image](https://github.com/user-attachments/assets/682093f6-e583-483c-b133-15f33673f2a5)
+Figure 5: Miscellaneous Aspect with Each Polarity Wordcloud
+
+![image](https://github.com/user-attachments/assets/6724f1e4-da2d-41c7-8d2f-d2092036ed95)
+Figure 6: Food Aspect with Each Polarity Wordcloud
+
+## INSIGHTS & RECOMMENDATIONS:
+
+Based on the information of Sentiment Distribution Across Aspects plot, Top Aspects in Term of Frequency, and wordclouds of some aspects, we have some observe and recommendations:
+
+1. Food - most discussed aspect 
+
+Finding:
+- Food is the most frequently mentioned aspect
+- Positive Sentiments: Words like "delicious," "best," "worth," "great," "good" indicate satisfaction.
+- Neutral Words: "service," "waiter," "menu," "table," "order" suggest that food discussions often involve service experiences.
+- Negative Words: "bland," "cold," "overpriced," "waiting," "average" highlight concerns about food quality, temperature, and price.
+
+Recommendations:
+- Improve Consistency: Ensure food temperature and taste remain consistent across different visits.
+- Menu Adjustments: Address concerns about food blandness—consider introducing bolder flavors or customizable spice levels.
+- Value Perception: Offer combo deals or portion size options to balance pricing concerns.
+- Speed Up Food Preparation: Since "waiting" appears frequently, reducing food preparation time is essential.
+
+2. Staff - second most discussed, and most negative aspect
+
+Finding:
+- Staff is the second most frequently mentioned topic.
+- Positive Sentiments: Words like "friendly," "attentive," "helpful," "promptly" indicate some customers appreciate good service.
+- Negative Words: "rude," "attitude," "waiting," "seated," "order," "manager" show dissatisfaction with staff behavior and long wait times.
+
+Recommendations: Since this aspect has most negative review, consider:
+- Customer Service Training: Reinforce polite and professional communication to reduce complaints about rudeness.
+- Handling Peak Hours: Implement better queue management and proactive updates to customers about wait times.
+- Improve Staff Motivation: Employee incentives for good service could improve engagement and attitude.
+- Clearer Seating Process: Address complaints about "seated" and "waiting" by streamlining table assignments.
+
+3. Miscellaneous - third most concerned, and high neutral review
+
+Finding:
+- Miscellaneous aspects often involve elements like portion size, seating, reservations, and general dining experience.
+- Neutral Words: "reservation," "table," "wait," "hostess," "dessert," "drink"
+Negative Words: "small," "portion," "long," "line," "tiny," "crowd"
+- The majority of these reviews are neutral, which means they are not particularly satisfied or dissatisfied—an opportunity for improvement.
+
+Recommendations:
+- Enhance Reservation & Seating Experience: Digital waitlist systems or pre-booking options can reduce complaints about "table," "long," and "line."
+- Portion Size Adjustments: If "small" portions are a common complaint, either adjust portion sizes or clearly communicate portion expectations in the menu.
+- Improve Waiting Area Comfort: Since "crowd" and "tiny" appear in complaints, consider expanding seating space or managing reservations better.
+
+4. Service - highly negative review aspect
+
+Finding:
+- Service has a high proportion of negative sentiment, which affects overall customer satisfaction.
+- Positive Sentiments: "attentive," "excellent," "quickly"
+- Negative Words: "wait long," "slow," "rude," "bad," "poor," "hour"
+
+Recommendations:
+
+- Reduce Waiting Times: Optimize kitchen workflow and improve order management to address complaints about slow service.
+- Empower Staff to Handle Issues Proactively: Provide training on diffusing customer frustration and resolving complaints efficiently.
+- Monitor Peak Hour Performance: Use customer feedback to determine when service issues arise most and allocate resources accordingly.
