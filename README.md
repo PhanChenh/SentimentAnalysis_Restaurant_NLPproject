@@ -56,43 +56,15 @@ Run this process in Google Colab for easy execution and visualization.
 
 ## Results & Visualizations
 
---------------
-## Project Overview:
-
-Dataset: train.json, test.json, and val.json
-
-Restaurant dataset that comprises 8,879 reviews of a single restaurant. These reviews are categorized into eight distinct aspects: food, service, staff, price, ambience, menu, place, and miscellaneous.
-
-Sentiment analysis is a technique in natural language processing (NLP) and text mining that involves analyzing and determining the emotional tone or sentiment expressed in a piece of text. The goal is to understand the feelings, opinions, or attitudes conveyed by the text, whether it's positive, negative, neutral, or even more specific emotions like anger, joy, or sadness.
-
-## Objectives:
-
-Sentiment analysis in this restaurant review dataset involves analyzing customer reviews to determine whether the sentiment is positive, negative, or neutral. By examining key aspects like food, service, staff, ambiance, and price, the project aims to uncover customer experiences and identify areas for improvement. The goal is to provide actionable insights that help optimize restaurant operations, enhance customer satisfaction, and improve overall performance. With these insights, the restaurant can refine its strategies, improve service quality, and ultimately boost customer loyalty.
-
-## Project Structure:
-
-1. Text Preprocessing & Data Preparation:
-- Clean the review data by removing noise such as special characters, stop words, and any irrelevant information to prepare the text for analysis.
-- Using Word2Vec Skipgram embeddings as discover in Optimizing Sentiment Analysis Models for Accurate Predictions Project
-
-2. Exploratory Data Analysis (EDA):
-- Perform some basic analysis and visualizations to get an overall understanding of the data, looking at trends and patterns.
-
-3. Train the Model (LSTM with Attention -  best model in Optimizing Sentiment Analysis Models for Accurate Predictions Project):
-- Train the LSTM model with an attention mechanism to highlight the important words related to the review's aspects and sentiment.
-
-4. Apply the Model & Generate Insights:
-- Use the trained model on the dataset to make predictions. Then, analyze the new dataset by visualizing the results to gain insights and understand the overall sentiment.
-
----
-
-## Outcome: 
-
 ![image](https://github.com/user-attachments/assets/ca2aa8e4-e93a-4fb4-b948-79f9b7ade192)
 Figure 1: Top Aspects in Terms of Frequency
 
+Finding: Observe that food, staff, and miscellaneous got mentioned the most
+
 ![image](https://github.com/user-attachments/assets/202f43df-9ba2-4d26-95d2-57e73c245581)
 Figure 2: Sentiment Distribution Across Aspects
+
+Finding: Food got pretty good review, since there are only around 11% for negative reviews, the rest are neutral and positive. However, the most noticable aspects are staff and service aspects since these two have high negative reviews (67% and 51% respectively)
 
 ![image](https://github.com/user-attachments/assets/45beeec4-aa6a-4425-a787-2e378a73e6c3)
 Figure 3: Food Aspect with Each Polarity Wordcloud 
@@ -130,59 +102,29 @@ Overview on Service Aspect:
 - Neutral Sentiment: Common words include "food", "waiting", "service", "table", "average", "drink", "seated", "reservation", "good", and "quick"
 - Negative Sentiment: The word "service", "wait long", "crowded", "hour", "slow", "rude", "bad", "poor", "price", and "reservation"
 
-## INSIGHTS & RECOMMENDATIONS:
+## Recommendation
 
-Based on the information of Sentiment Distribution Across Aspects plot, Top Aspects in Term of Frequency, and wordclouds of some aspects, we have some observe and recommendations:
+Based on the sentiment analysis and insights derived from the reviews, the following recommendations are made:
 
-1. Food - most discussed aspect 
+1. Food:
+- Ensure food consistency, especially regarding temperature and taste.
+- Consider enhancing the menu with more bold flavors or customizable spice levels to address concerns about bland food.
+- Offer combo deals or larger portion options to improve value perception.
+2. Staff:
+- Reinforce customer service training to address issues with rude behavior and poor attitudes.
+- Implement better queue management to handle peak hours and reduce complaints about waiting times.
+- Improve staff motivation through incentives and recognition.
+3. Miscellaneous:
+- Enhance the reservation system by offering digital waitlists or pre-booking options to reduce waiting times.
+- Adjust portion sizes or clarify expectations on the menu to address complaints about small portions.
+- Improve the waiting area by expanding space or better managing reservations.
+4. Service:
+- Optimize kitchen and order management workflows to reduce service delays.
+- Provide proactive customer service training to handle complaints and frustration efficiently.
+- Monitor peak hours to allocate resources effectively and address service issues promptly.
 
-Finding:
-- Food is the most frequently mentioned aspect
-- Positive Sentiments: Words like "delicious," "best," "worth," "great," "good" indicate satisfaction.
-- Neutral Words: "service," "waiter," "menu," "table," "order" suggest that food discussions often involve service experiences.
-- Negative Words: "bland," "cold," "overpriced," "waiting," "average" highlight concerns about food quality, temperature, and price.
+## Contact
 
-Recommendations:
-- Improve Consistency: Ensure food temperature and taste remain consistent across different visits.
-- Menu Adjustments: Address concerns about food blandness—consider introducing bolder flavors or customizable spice levels.
-- Value Perception: Offer combo deals or portion size options to balance pricing concerns.
-- Speed Up Food Preparation: Since "waiting" appears frequently, reducing food preparation time is essential.
+📧 Email: pearriperri@gmail.com
 
-2. Staff - second most discussed, and most negative aspect
-
-Finding:
-- Staff is the second most frequently mentioned topic.
-- Positive Sentiments: Words like "friendly," "attentive," "helpful," "promptly" indicate some customers appreciate good service.
-- Negative Words: "rude," "attitude," "waiting," "seated," "order," "manager" show dissatisfaction with staff behavior and long wait times.
-
-Recommendations: Since this aspect has most negative review, consider:
-- Customer Service Training: Reinforce polite and professional communication to reduce complaints about rudeness.
-- Handling Peak Hours: Implement better queue management and proactive updates to customers about wait times.
-- Improve Staff Motivation: Employee incentives for good service could improve engagement and attitude.
-- Clearer Seating Process: Address complaints about "seated" and "waiting" by streamlining table assignments.
-
-3. Miscellaneous - third most concerned, and high neutral review
-
-Finding:
-- Miscellaneous aspects often involve elements like portion size, seating, reservations, and general dining experience.
-- Neutral Words: "reservation," "table," "wait," "hostess," "dessert," "drink"
-Negative Words: "small," "portion," "long," "line," "tiny," "crowd"
-- The majority of these reviews are neutral, which means they are not particularly satisfied or dissatisfied—an opportunity for improvement.
-
-Recommendations:
-- Enhance Reservation & Seating Experience: Digital waitlist systems or pre-booking options can reduce complaints about "table," "long," and "line."
-- Portion Size Adjustments: If "small" portions are a common complaint, either adjust portion sizes or clearly communicate portion expectations in the menu.
-- Improve Waiting Area Comfort: Since "crowd" and "tiny" appear in complaints, consider expanding seating space or managing reservations better.
-
-4. Service - highly negative review aspect
-
-Finding:
-- Service has a high proportion of negative sentiment, which affects overall customer satisfaction.
-- Positive Sentiments: "attentive," "excellent," "quickly"
-- Negative Words: "wait long," "slow," "rude," "bad," "poor," "hour"
-
-Recommendations:
-
-- Reduce Waiting Times: Optimize kitchen workflow and improve order management to address complaints about slow service.
-- Empower Staff to Handle Issues Proactively: Provide training on diffusing customer frustration and resolving complaints efficiently.
-- Monitor Peak Hour Performance: Use customer feedback to determine when service issues arise most and allocate resources accordingly.
+🔗 [LinkedIn](https://www.linkedin.com/in/phan-chenh-6a7ba127a/) | Portfolio
