@@ -37,10 +37,17 @@ Sentiment analysis in this restaurant review dataset involves analyzing customer
   - The trained model is applied to predict sentiment in the reviews. Insights are then drawn by visualizing sentiment distribution and identifying key sentiment drivers in the restaurant experience.
 
 ## Key Findings
+- Food: Positive feedback on quality, but concerns over price and temperature. Word clouds help identify areas for improvement, like consistency.
+- Staff: 67% negative reviews, mainly about rudeness and wait times. Word clouds can guide staff training and service improvements.
+- Miscellaneous: Neutral reviews with some complaints about seating and portion sizes. Word clouds can help optimize these aspects.
+- Service: 51% negative reviews, focusing on slow service and poor behavior. Word clouds highlight areas to improve service speed and staff training.
+
+## How to run code
 
 
+## Technologies Used
 
-
+## Results & Visualizations
 
 --------------
 ## Project Overview:
