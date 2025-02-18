@@ -18,7 +18,7 @@ This project aims to perform sentiment analysis on restaurant reviews to uncover
 
 ## Dataset
 
-- The dataset used in this analysis is composed of three files: train.json, test.json, and val.json.
+- The dataset used in this analysis is composed of three files: [train.json](data/train.json), [test.json](data/test.json), and [val.json](data/val.json).
 - These files contain a total of 8,879 reviews for a single restaurant.
 - Each review is categorized into one of the following eight aspects: food, service, staff, price, ambience, menu, place, and miscellaneous. The sentiment associated with each review is classified as positive, negative, or neutral.
 
