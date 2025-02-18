@@ -43,16 +43,16 @@ Sentiment analysis in this restaurant review dataset involves analyzing customer
 - Service: 51% negative reviews, focusing on slow service and poor behavior. Word clouds highlight areas to improve service speed and staff training.
 
 ## How to run code
-- Install Necessary Libraries: Ensure the required libraries are installed, including pandas, matplotlib, seaborn, tensorflow, and gensim as show in the file
-- Load the Dataset: Import the dataset by loading the JSON files: train.json, test.json, and val.json.
-- Data Preprocessing: Clean the text data by removing stop words, special characters, and irrelevant information.
-- Word2Vec Embeddings: Use Word2Vec embeddings to transform the text data for model training.
-- Train the Model: Build and train an LSTM model with an attention mechanism using the preprocessed data.
-- Generate Predictions: Use the trained model to make predictions, then visualize the sentiment distribution and generate insights for each aspect.
+1. Install Required Libraries: Ensure all necessary libraries such as pandas, matplotlib, seaborn, tensorflow, and gensim are installed like in the [file](SentimentAnalysis_RestaurantReview.ipynb)
+2. Load the Dataset: Import the dataset by loading the train.json, test.json, and val.json files.
+3. Run the Analysis Notebooks: Execute the analysis notebooks in Jupyter to process the data, build and train the model, and visualize the results.
 
 Run this process in Google Colab for easy execution and visualization.
 
 ## Technologies Used
+- Python Code: Data processing and analysis were done in Python using libraries like pandas and numpy for data manipulation, gensim for Word2Vec and FastText embeddings, and nltk for text preprocessing tasks such as tokenization, stopwords removal, and stemming. Model evaluation was carried out with scikit-learn, and deep learning models were built and trained using torch.
+
+- Visualization: For visualizing the results, matplotlib and seaborn were used for plotting, while wordcloud was utilized to generate word clouds to illustrate sentiment and aspect-wise insights.
 
 ## Results & Visualizations
 
