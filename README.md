@@ -69,7 +69,7 @@ Finding: Food got pretty good review, since there are only around 11% for negati
 ![image](https://github.com/user-attachments/assets/45beeec4-aa6a-4425-a787-2e378a73e6c3)
 Figure 3: Food Aspect with Each Polarity Wordcloud 
 
-Overview on Food Aspect:
+Finding on Food Aspect:
 
 - Positive Sentiment: Words like "good", "great", "menu", "price", "service", "waiter", "worth", "best", "better", and "delicious" dominate.
 - Neutral Sentiment: Common words include "service", "food", "table", "drink", "waiter", "order", "waitress", "time", "place", and "dinner"
@@ -78,7 +78,7 @@ Overview on Food Aspect:
 ![image](https://github.com/user-attachments/assets/e37c8d58-3610-406b-a832-7ccd57dabc63)
 Figure 4: Staff Aspect with Each Polarity Wordcloud
 
-Overview on Staff Aspect:
+Finding on Staff Aspect:
 
 - Positive Sentiment: Words like "table", "staff", "waiter", "friendly", "nice", "attentive", "helpful", "promtly", "server", and "appetizer" dominate.
 - Neutral Sentiment: Common words include "waiter", "food", "chef", "table", "menu", "time", "staff", "manager", "waitress", and "service"
@@ -87,7 +87,7 @@ Overview on Staff Aspect:
 ![image](https://github.com/user-attachments/assets/682093f6-e583-483c-b133-15f33673f2a5)
 Figure 5: Miscellaneous Aspect with Each Polarity Wordcloud
 
-Overview on Miscellaneous Aspect:
+Finding on Miscellaneous Aspect:
 
 - Positive Sentiment: Words like "portion", "entree", "menu", "place", "great", "price", "big", "time", "good", and "quality" dominate.
 - Neutral Sentiment: Common words include "reservation", "table", "wait", "waiter", "hostess", "seated", "drink", "dessert", "waiting", and "time"
@@ -96,7 +96,7 @@ Overview on Miscellaneous Aspect:
 ![image](https://github.com/user-attachments/assets/6724f1e4-da2d-41c7-8d2f-d2092036ed95)
 Figure 6: Service Aspect with Each Polarity Wordcloud
 
-Overview on Service Aspect:
+Finding on Service Aspect:
 
 - Positive Sentiment: Words like "good", "friendly", "great", "attentive", "service", "attentive", "excellent", "best", "quickly", and "better" dominate.
 - Neutral Sentiment: Common words include "food", "waiting", "service", "table", "average", "drink", "seated", "reservation", "good", and "quick"
