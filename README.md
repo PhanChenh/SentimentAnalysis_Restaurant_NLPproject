@@ -1,5 +1,48 @@
 # Project Title: Sentiment Analysis of Restaurant Reviews to Enhance Customer Experience and Optimize Operations
 
+## Table of Contents
+- [Overview](#overview)
+- [Dataset](#dataset)
+- [Objective](#objective)
+- [Analysis Approach](#analysis-approach)
+- [Key Findings](#key-findings)
+- [How to run code](#how-to-run-code)
+- [Technologies Used](#technologies-used)
+- [Results & Visualizations](#results--visualizations)
+- [Recommendation](#recommendation)
+- [Contact](#contact)
+
+## Overview
+
+This project aims to perform sentiment analysis on restaurant reviews to uncover customer experiences and identify areas for improvement. The dataset consists of 8,879 reviews for a single restaurant, covering eight key aspects: food, service, staff, price, ambience, menu, place, and miscellaneous. By analyzing the sentiment expressed in these reviews, this project provides actionable insights that can help optimize operations, enhance customer satisfaction, and ultimately improve overall restaurant performance.
+
+## Dataset
+
+- The dataset used in this analysis is composed of three files: train.json, test.json, and val.json.
+- These files contain a total of 8,879 reviews for a single restaurant.
+- Each review is categorized into one of the following eight aspects: food, service, staff, price, ambience, menu, place, and miscellaneous. The sentiment associated with each review is classified as positive, negative, or neutral.
+
+## Objective
+
+Sentiment analysis in this restaurant review dataset involves analyzing customer reviews to determine whether the sentiment is positive, negative, or neutral. By examining key aspects like food, service, staff, ambiance, and price, the project aims to uncover customer experiences and identify areas for improvement. The goal is to provide actionable insights that help optimize restaurant operations, enhance customer satisfaction, and improve overall performance. With these insights, the restaurant can refine its strategies, improve service quality, and ultimately boost customer loyalty.
+
+## Analysis Approach
+1. Text Preprocessing & Data Preparation:
+  - The first step involves cleaning the review data by removing noise such as special characters, stop words, and irrelevant information. This ensures the text is ready for analysis. Additionally, Word2Vec Skipgram embeddings are applied as discovered in the "Optimizing Sentiment Analysis Models for Accurate Predictions" project.
+2. Exploratory Data Analysis (EDA):
+  - Basic visualizations and analysis are performed to understand the trends and patterns in the data.
+3. Model Training (LSTM with Attention):
+  - The Long Short-Term Memory (LSTM) model with an attention mechanism is trained. This model helps highlight the important words related to each review’s aspects and sentiment, enhancing prediction accuracy.
+4. Apply the Model & Generate Insights:
+  - The trained model is applied to predict sentiment in the reviews. Insights are then drawn by visualizing sentiment distribution and identifying key sentiment drivers in the restaurant experience.
+
+## Key Findings
+
+
+
+
+
+--------------
 ## Project Overview:
 
 Dataset: train.json, test.json, and val.json
