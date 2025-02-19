@@ -35,6 +35,8 @@ Sentiment analysis in this restaurant review dataset involves analyzing customer
   - The Long Short-Term Memory (LSTM) model with an attention mechanism is trained. This model helps highlight the important words related to each review’s aspects and sentiment, enhancing prediction accuracy.
 4. Apply the Model & Generate Insights:
   - The trained model is applied to predict sentiment in the reviews. Insights are then drawn by visualizing sentiment distribution and identifying key sentiment drivers in the restaurant experience.
+5. Recommendation:
+- Based on the insights generated, actionable recommendations are provided to improve the restaurant's customer experience and business strategies.
 
 ## Key Findings
 - Food: Positive feedback on quality, but concerns over price and temperature. Word clouds help identify areas for improvement, like consistency.
