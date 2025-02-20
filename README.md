@@ -127,6 +127,6 @@ Based on the sentiment analysis and insights derived from the reviews, the follo
 
 ## Contact
 
-📧 Email: pearriperri@gmail.com
+📧 Email: phanchenh99@gmail.com
 
 🔗 [LinkedIn](https://www.linkedin.com/in/phan-chenh-6a7ba127a/) | Portfolio
